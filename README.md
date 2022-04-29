@@ -1,4 +1,4 @@
-# VXServices-crack
+# VXServices Crack
 Crack of all scripts provided by VXServices
 
 Creator is toxic and copied our website (https://ars.red) without our permission and is flat out refusing to give credit
