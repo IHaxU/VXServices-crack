@@ -1,3 +1,10 @@
+-- Games supported:
+  -- Natural Disaster
+  -- Prison Life
+  -- Laundry Simulator
+  -- Lucky Blocks
+  -- Build A Boat For Treasure
+
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local oldIdx
 oldIdx = hookmetamethod(game, "__index", function(self, method, ...)
