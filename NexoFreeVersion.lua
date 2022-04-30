@@ -21,7 +21,6 @@ oldIdx = hookmetamethod(game, "__index", function(self, method, ...)
     local ret = oldIdx(self, method, ...)
     if method == "IsInGroup" then
         return newcclosure(function(self, groupId, ...)
-            warn(groupId, type(groupId))
             if self == LocalPlayer and groupId == 11861898 then
                 return true
             end
